@@ -1,0 +1,19 @@
+" zip.vim version v32
+" Browsing zipfile /var/lib/jenkins/workspace/myjob/target/webapp-9849179342.0.2.war
+" Select a file with cursor and press ENTER
+
+META-INF/
+META-INF/MANIFEST.MF
+WEB-INF/
+WEB-INF/classes/
+WEB-INF/classes/mypackage/
+WEB-INF/lib/
+WEB-INF/web.xml
+WEB-INF/classes/mypackage/Calculator.class
+WEB-INF/lib/servlet-api-2.5.jar
+index.jsp
+META-INF/maven/
+META-INF/maven/com.web.cal/
+META-INF/maven/com.web.cal/webapp/
+META-INF/maven/com.web.cal/webapp/pom.xml
+META-INF/maven/com.web.cal/webapp/pom.properties
