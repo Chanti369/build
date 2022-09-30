@@ -1,3 +1,4 @@
+FROM couchbase/centos7-systemd
 RUN yum install -y java-1.8*
 RUN yum install -y git
 RUN yum install -y systemd
