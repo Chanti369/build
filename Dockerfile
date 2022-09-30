@@ -9,7 +9,7 @@ RUN tar -xvf apache-tomcat-8.5.78.tar.gz
 RUN mv apache-tomcat-8.5.78 tomcat
 COPY context.xml /opt/tomcat/webapps/manager/META-INF/
 COPY tomcat-users.xml /opt/tomcat/conf/
-COPY /var/lib/jenkins/workspace/myjob/target/webapp-9849179342.0.2.war /opt/tomcat/webapps/
+COPY webapp-9849179342.0.2.war /opt/tomcat/webapps/
 RUN touch /etc/systemd/system/tomcat.service
 RUN chmod 777 /etc/systemd/system/tomcat.service
 COPY tomcat.service /etc/systemd/system/
